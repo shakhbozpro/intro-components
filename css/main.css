@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6, p {
 .form {
    background-color: var(--white);
    border-radius: 20px;
-   padding: 40px 60px;
+   padding: 45px 60px 40px 60px;
    display: flex;
    flex-direction: column;
 }
@@ -173,12 +173,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .form-label {
    width: 100%;
-   
+   margin-bottom: 24px;
 }
 
-/* .form-input:not(:last-child) {
-   margin-bottom: 35px;
-} */
+.form-label:nth-child(5) {
+   margin-bottom: 63px;
+}
 
 .form-input:last-child {
    display: block;
@@ -209,6 +209,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .form-input:not(:placeholder-shown):not(:focus):invalid {
    border-bottom-color: var(--red);
+   color: var(--red);
 }
 
 .form-input:not(:placeholder-shown):not(:focus):invalid .form-input::placeholder  {
