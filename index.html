@@ -9,6 +9,52 @@
    <title>Intro components</title>
 </head>
 <body>
-   
+   <h1 class="visually-hidden">Intro components</h1>
+   <main class="main">
+      <div class="container">
+         <div class="main-wrapper">
+            <div class="main-start">
+               <span class="main-text">frontend and backend</span>
+               <div class="main-text-wrapper">
+                  <h2 class="main-heading">Learn to program by watching professionals</h2>
+               <p class="main-subtitle">See how experienced developers solve problems in real time</p>
+               </div>
+               <a class="main-link" href="#"><strong class="main-link-bold-text">Try it free 7 days,</strong> then $20/mo</a>
+            </div>
+
+            <div class="main-end">
+               <form class="form" action="https://echo.htmlacademy.ru/courses" method="POST" autocomplete="off">
+                  <h2 class="form-heading">Sign up for the course and get free 7 days</h2>
+
+                  <label class="form-label">
+                     <input class="form-input" type="text" name="userfirst_name" placeholder="First name" aria-label="Enter your first name" minlength="2" required>
+                     <span class="invalid-text">First Name cannot be empty</span>
+                  </label>
+
+                  <label class="form-label">
+                     <input class="form-input" type="text" name="userlast_name" placeholder="Last name" aria-label="Enter your last name" minlength="2" required>
+                     <span class="invalid-text">Last Name cannot be empty</span>
+                  </label>
+
+                  <label class="form-label">
+                     <input class="form-input" type="email" name="useremail" placeholder="Email Address" aria-label="Enter your email address" required>
+                     <span class="invalid-text">Looks like this is not an email</span>
+                  </label>
+
+                  <label class="form-label">
+                     <input class="form-input" type="password" name="userpassword" placeholder="Password" aria-label="Enter your password" minlength="8" required>
+                     <span class="invalid-text">Password cannot be empty</span>
+                  </label>
+
+                  <button class="form-btn" type="submit">Claim your free trial</button>
+
+                  <div class="click-wrapper">
+                     <span class="click-text">By clicking the button, you are agreeing to our <a class="click-link" href="#">Terms and Services</a></span>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </main>
 </body>
 </html>
